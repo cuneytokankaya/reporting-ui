@@ -4,6 +4,8 @@ import { Routes,  Route, BrowserRouter} from 'react-router-dom'
 import Dashboard from './Dashboard';
 import TransactionReport from './TransactionReport';
 import TransactionList from './TransactionList';
+import TransactionDetail from './TransactionDetail';
+import Client from './Client';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path="/logout" element={<Login />} />
         <Route path="/transaction-report" element={<TransactionReport />} />
         <Route path="/transaction-list" element={<TransactionList />} />
+        <Route path="/transaction-detail" element={ <TransactionDetail/>} />
+        <Route path="/client-detail" element={ <Client/>} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </BrowserRouter>

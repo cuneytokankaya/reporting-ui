@@ -12,21 +12,35 @@ function Dashboard() {
         <Button
           variant="primary"
           type="button"
-          onClick={() => navigate('/transaction-list')}
+          onClick={() => navigate("/transaction-list")}
         >
-          TransactionList
+          Transaction List
         </Button>
         <Button
           variant="primary"
           type="button"
-          onClick={() => navigate('/transaction-report')}
+          onClick={() => navigate("/transaction-report")}
         >
-          TransactionReport
+          Transaction Report
         </Button>
         <Button
           variant="primary"
           type="button"
-          onClick={() => navigate('/logout')}
+          onClick={() => navigate("/transaction-detail")}
+        >
+          Transaction Detail
+        </Button>
+        <Button
+          variant="primary"
+          type="button"
+          onClick={() => navigate("/client-detail")}
+        >
+          Client Detail
+        </Button>
+        <Button
+          variant="primary"
+          type="button"
+          onClick={() => navigate("/logout")}
         >
           Logout
         </Button>

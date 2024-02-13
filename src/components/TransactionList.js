@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import Dashboard from "./Dashboard";
-import TransactionTable from "./TransactionTable";
+import GenericTable from "./GenericTable";
 
 function TransactionList() {
   const token = localStorage.getItem("token");
@@ -130,7 +130,7 @@ function TransactionList() {
         </Button>
       </Form>
       <br></br>
-      <TransactionTable data={data} />
+      <GenericTable data={data} />
     </div>
   );
 }

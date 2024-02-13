@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form ,Button} from "react-bootstrap";
 import Dashboard from "./Dashboard";
-import TransactionTable from "./TransactionTable";
+import TransactionTable from "./GenericTable";
 
 function TransactionReport() {
   const token = localStorage.getItem("token");
